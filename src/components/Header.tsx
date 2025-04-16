@@ -6,7 +6,7 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container flex h-16 items-center justify-between">
-        <div className="font-medium text-lg tracking-tight">Portfolio</div>
+        <div className="font-medium text-lg tracking-tight">A.Samir</div>
         <nav className="hidden md:flex gap-6">
           {["about", "projects", "contact"].map((section) => (
             <Link

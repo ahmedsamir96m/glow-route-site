@@ -3,7 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, MessageSquare, Send } from "lucide-react";
+import { Mail, MessageSquare, Send, Phone, Linkedin } from "lucide-react";
 import { AnimatedSection } from "./AnimatedSection";
 
 export function ContactSection() {
@@ -20,14 +20,25 @@ export function ContactSection() {
               Interested in working together? Feel free to reach out to me.
             </p>
             
-            <div className="space-y-2">
+            <div className="space-y-4">
               <div className="flex items-center gap-2">
                 <Mail className="w-5 h-5 text-muted-foreground" />
-                <span>hello@example.com</span>
+                <span>info@ahmedsamirbuisness.com</span>
               </div>
               <div className="flex items-center gap-2">
-                <MessageSquare className="w-5 h-5 text-muted-foreground" />
-                <span>@username</span>
+                <Phone className="w-5 h-5 text-muted-foreground" />
+                <span>+201151384217</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Linkedin className="w-5 h-5 text-muted-foreground" />
+                <a 
+                  href="https://www.linkedin.com/in/ahmedsamir96m/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-primary transition-colors"
+                >
+                  ahmedsamir96m
+                </a>
               </div>
             </div>
           </AnimatedSection>
