@@ -1,6 +1,7 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { AnimatedSection } from "./AnimatedSection";
+import { SkillsSection } from "./SkillsSection";
 
 export function AboutSection() {
   return (
@@ -25,7 +26,7 @@ export function AboutSection() {
           <AnimatedSection delay={3}>
             <Card className="bg-secondary/50">
               <CardContent className="p-6">
-                <h3 className="text-xl font-medium mb-4">Skills</h3>
+                <h3 className="text-xl font-medium mb-4">Experience</h3>
                 <div className="grid grid-cols-2 gap-y-2">
                   {["UI/UX Design", "Frontend Development", "React", "Tailwind CSS", "Typography", "Motion Design"].map((skill) => (
                     <div key={skill} className="flex items-center gap-2">
@@ -38,6 +39,8 @@ export function AboutSection() {
             </Card>
           </AnimatedSection>
         </div>
+
+        <SkillsSection />
       </div>
     </section>
   );
