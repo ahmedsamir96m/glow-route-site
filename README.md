@@ -1,4 +1,6 @@
-# Welcome to your Lovable project
+# Minimalist Personal Portfolio
+
+A clean, elegant personal portfolio website featuring smooth transitions and theme toggle.
 
 ## Project info
 
